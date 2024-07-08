@@ -91,4 +91,8 @@ const meal1 = new Meal(initPhraseArr, carboArr, proteinArr, fatArr);
 //meal1.carbo = "carbo2";
 //console.log(meal1.carbo);
 //console.log(meal1.randomNumber(carboArr))
-console.log(meal1.mealCombination())
+const mealCombination = meal1.mealCombination();
+console.log(mealCombination)
+
+let mealText = document.getElementById('meal');
+mealText.innerHTML = mealCombination;
