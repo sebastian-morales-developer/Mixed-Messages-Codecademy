@@ -18,6 +18,8 @@ body, html {
     text-align: center;
 }
 
+
+
 .responsive-text {
     font-size: calc(5vw + 5vh);
     line-height: 1.2;
